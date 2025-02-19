@@ -1,0 +1,114 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-color: #eee;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+}
+#main-navigation{
+    background-color: #181818;
+    padding: 10px;
+}
+#main-navigation h1{
+    margin: 0 auto;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+#main-navigation a.current{
+    background-color: #8f746c;
+    border-radius: 4px;
+}
+#lead-banner{
+    width: 100%;
+}
+#lead-banner img{
+width: 100%;
+height: auto;
+}
+#shop{
+    
+    text-align: center;
+}
+
+#shop img{
+    width: 100%;
+}
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#shop span.price{
+    display: block;
+    font-size: 32px;
+}
+#shop a.add-to-bag{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0;
+    border: 2px solid #8f746c;
+    width: 20%;
+    margin: 20px auto;
+}
+#shop a.add-to-bag:hover{
+    color: #fff;
+    background-color: #8f746c;
+}
+#footer-banner img{
+    width: 100%;
+}
+#shop img.rating{
+    width: 20%;
+    margin-bottom: 20px;
+}
+@media  screen and (max-width: 780px) {
+    #shop a.add-to-bag{
+        width: 90%;
+    }
+    #shop span.price{
+        font-size: 18px;
+    }
+    #shop h2.product-name{
+        font-size: 8px;
+    }
+    #shop img.rating{
+        width: 50%;
+    }
+    #main-navigation ul{
+        margin-right: 5px;
+    }
+    #main-navigation li{
+        display: block;
+        margin-left: 0;
+    }
+    #main-navigation a{
+        font-size: 8px;
+        padding: 2%;
+    }
+    #main-navigation{
+        padding: 1px;
+    }
+}
